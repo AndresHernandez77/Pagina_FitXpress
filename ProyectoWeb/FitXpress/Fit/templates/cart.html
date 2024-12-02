@@ -8,7 +8,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<!-- Title Tag  -->
-    <title>Eshop - eCommerce HTML5 Template.</title>
+    <title>FitXpress</title>
 	<!-- Favicon -->
 	<link rel="icon" type="image/png" href="images/favicon.png">
 	<!-- Web Font -->
@@ -64,8 +64,7 @@
 							<!-- Top Left -->
 							<div class="top-left">
 								<ul class="list-main">
-									<li><i class="ti-headphone-alt"></i> +060 (800) 801-582</li>
-									<li><i class="ti-email"></i> support@shophub.com</li>
+									
 								</ul>
 							</div>
 							<!--/ End Top Left -->
@@ -74,10 +73,9 @@
 							<!-- Top Right -->
 							<div class="right-content">
 								<ul class="list-main">
-									<li><i class="ti-location-pin"></i> Store location</li>
-									<li><i class="ti-alarm-clock"></i> <a href="#">Daily deal</a></li>
-									<li><i class="ti-user"></i> <a href="#">My account</a></li>
-									<li><i class="ti-power-off"></i><a href="login.html#">Login</a></li>
+									
+									<li><i class="ti-user"></i> <a href="#">Mi cuenta</a></li>
+									<li><i class="ti-power-off"></i><a href="login.html#">Inicio de Sesión</a></li>
 								</ul>
 							</div>
 							<!-- End Top Right -->
@@ -92,7 +90,7 @@
 						<div class="col-lg-2 col-md-2 col-12">
 							<!-- Logo -->
 							<div class="logo">
-								<a href="index.html"><img src="{% static 'images/LogoFit.png' %}" alt="logo"></a>
+								<a href="index.html"><img src="{% static 'images/LogoFit2.png' %}" alt="logo"></a>
 							</div>
 							<!--/ End Logo -->
 							<!-- Search Form -->
@@ -113,14 +111,9 @@
 						<div class="col-lg-8 col-md-7 col-12">
 							<div class="search-bar-top">
 								<div class="search-bar">
-									<select>
-										<option selected="selected">All Category</option>
-										<option>watch</option>
-										<option>mobile</option>
-										<option>kid’s item</option>
-									</select>
+									
 									<form>
-										<input name="search" placeholder="Search Products Here....." type="search">
+										<input name="search" placeholder="Buscar Producto....." type="search">
 										<button class="btnn"><i class="ti-search"></i></button>
 									</form>
 								</div>
@@ -234,10 +227,10 @@
 					<table class="table shopping-summery">
 						<thead>
 							<tr class="main-hading">
-								<th>PRODUCT</th>
-								<th>NAME</th>
-								<th class="text-center">UNIT PRICE</th>
-								<th class="text-center">QUANTITY</th>
+								<th>PRODUCTO</th>
+								<th>NOMBRE</th>
+								<th class="text-center">PRECIO UNITARIO</th>
+								<th class="text-center">CANTIDAD</th>
 								<th class="text-center">TOTAL</th> 
 								<th class="text-center"><i class="ti-trash remove-icon"></i></th>
 							</tr>
@@ -335,22 +328,22 @@
 								<div class="left">
 									<div class="coupon">
 										<form action="#" target="_blank">
-											<input name="Coupon" placeholder="Enter Your Coupon">
-											<button class="btn">Apply</button>
+											<input name="Coupon" placeholder="Introduce tu cupon">
+											<button class="btn">Aplicar</button>
 										</form>
 									</div>
 									<div class="checkbox">
-										<label class="checkbox-inline" for="2"><input name="news" id="2" type="checkbox"> Shipping (+10$)</label>
+										<label class="checkbox-inline" for="2"><input name="news" id="2" type="checkbox"> Descuento (+10$)</label>
 									</div>
 								</div>
 							</div>
 							<div class="col-lg-4 col-md-7 col-12">
 								<div class="right">
 									<ul>
-										<li>Cart Subtotal<span>$330.00</span></li>
-										<li>Shipping<span>Free</span></li>
-										<li>You Save<span>$20.00</span></li>
-										<li class="last">You Pay<span>$310.00</span></li>
+										<li>Subtotal<span>$330.00</span></li>
+										<li>Envio<span>Gratis</span></li>
+										<li>Tu descuento<span>$20.00</span></li>
+										<li class="last">Total<span>$310.00</span></li>
 									</ul>
 									<div class="button5">
 										<a onclick="window.location.href='/checkout/';" class="btn">Pagar</a>
@@ -366,17 +359,20 @@
 		</div>
 	</div>
 	<!--/ End Shopping Cart -->
+		
+	
+
 			
-	<!-- Start Shop Services Area  -->
-	<section class="shop-services section">
+	<!-- Start Shop Services Area -->
+	<section class="shop-services section home">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-3 col-md-6 col-12">
 					<!-- Start Single Service -->
 					<div class="single-service">
 						<i class="ti-rocket"></i>
-						<h4>Free shiping</h4>
-						<p>Orders over $100</p>
+						<h4>Envío gratuito</h4>
+						<p>Pedidos superiores a $150</p>
 					</div>
 					<!-- End Single Service -->
 				</div>
@@ -384,8 +380,8 @@
 					<!-- Start Single Service -->
 					<div class="single-service">
 						<i class="ti-reload"></i>
-						<h4>Free Return</h4>
-						<p>Within 30 days returns</p>
+						<h4>Devolución gratuita</h4>
+						<p>Devoluciones en un plazo de 30 días</p>
 					</div>
 					<!-- End Single Service -->
 				</div>
@@ -393,8 +389,8 @@
 					<!-- Start Single Service -->
 					<div class="single-service">
 						<i class="ti-lock"></i>
-						<h4>Sucure Payment</h4>
-						<p>100% secure payment</p>
+						<h4>Pago Seguro</h4>
+						<p>Pago 100% Seguro</p>
 					</div>
 					<!-- End Single Service -->
 				</div>
@@ -402,132 +398,17 @@
 					<!-- Start Single Service -->
 					<div class="single-service">
 						<i class="ti-tag"></i>
-						<h4>Best Peice</h4>
-						<p>Guaranteed price</p>
+						<h4>Mejor Precio</h4>
+						<p>Precio Garantizado</p>
 					</div>
 					<!-- End Single Service -->
 				</div>
 			</div>
 		</div>
 	</section>
-	<!-- End Shop Newsletter -->
+	<!-- End Shop Services Area -->
 	
 	
-	
-	
-	
-	<!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span class="ti-close" aria-hidden="true"></span></button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="row no-gutters">
-                            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                                <!-- Product Slider -->
-									<div class="product-gallery">
-										<div class="quickview-slider-active">
-											<div class="single-slider">
-												<img src="images/modal1.jpg" alt="#">
-											</div>
-											<div class="single-slider">
-												<img src="images/modal2.jpg" alt="#">
-											</div>
-											<div class="single-slider">
-												<img src="images/modal3.jpg" alt="#">
-											</div>
-											<div class="single-slider">
-												<img src="images/modal4.jpg" alt="#">
-											</div>
-										</div>
-									</div>
-								<!-- End Product slider -->
-                            </div>
-                            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                                <div class="quickview-content">
-                                    <h2>Flared Shift Dress</h2>
-                                    <div class="quickview-ratting-review">
-                                        <div class="quickview-ratting-wrap">
-                                            <div class="quickview-ratting">
-                                                <i class="yellow fa fa-star"></i>
-                                                <i class="yellow fa fa-star"></i>
-                                                <i class="yellow fa fa-star"></i>
-                                                <i class="yellow fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                            </div>
-                                            <a href="#"> (1 customer review)</a>
-                                        </div>
-                                        <div class="quickview-stock">
-                                            <span><i class="fa fa-check-circle-o"></i> in stock</span>
-                                        </div>
-                                    </div>
-                                    <h3>$29.00</h3>
-                                    <div class="quickview-peragraph">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia iste laborum ad impedit pariatur esse optio tempora sint ullam autem deleniti nam in quos qui nemo ipsum numquam.</p>
-                                    </div>
-									<div class="size">
-										<div class="row">
-											<div class="col-lg-6 col-12">
-												<h5 class="title">Size</h5>
-												<select>
-													<option selected="selected">s</option>
-													<option>m</option>
-													<option>l</option>
-													<option>xl</option>
-												</select>
-											</div>
-											<div class="col-lg-6 col-12">
-												<h5 class="title">Color</h5>
-												<select>
-													<option selected="selected">orange</option>
-													<option>purple</option>
-													<option>black</option>
-													<option>pink</option>
-												</select>
-											</div>
-										</div>
-									</div>
-                                    <div class="quantity">
-										<!-- Input Order -->
-										<div class="input-group">
-											<div class="button minus">
-												<button type="button" class="btn btn-primary btn-number" disabled="disabled" data-type="minus" data-field="quant[1]">
-													<i class="ti-minus"></i>
-												</button>
-											</div>
-											<input type="text" name="quant[1]" class="input-number"  data-min="1" data-max="1000" value="1">
-											<div class="button plus">
-												<button type="button" class="btn btn-primary btn-number" data-type="plus" data-field="quant[1]">
-													<i class="ti-plus"></i>
-												</button>
-											</div>
-										</div>
-										<!--/ End Input Order -->
-									</div>
-									<div class="add-to-cart">
-										<a href="#" class="btn">Add to cart</a>
-										<a href="#" class="btn min"><i class="ti-heart"></i></a>
-										<a href="#" class="btn min"><i class="fa fa-compress"></i></a>
-									</div>
-                                    <div class="default-social">
-										<h4 class="share-now">Share:</h4>
-                                        <ul>
-                                            <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-                                            <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a class="youtube" href="#"><i class="fa fa-pinterest-p"></i></a></li>
-                                            <li><a class="dribbble" href="#"><i class="fa fa-google-plus"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Modal end -->
 	
 	<!-- Start Footer Area -->
 	<footer class="footer">
@@ -539,23 +420,22 @@
 						<!-- Single Widget -->
 						<div class="single-footer about">
 							<div class="logo">
-								<a href="index.html"><img src="images/logo2.png" alt="#"></a>
+								
 							</div>
-							<p class="text">Praesent dapibus, neque id cursus ucibus, tortor neque egestas augue,  magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</p>
-							<p class="call">Got Question? Call us 24/7<span><a href="tel:123456789">+0123 456 789</a></span></p>
+							<p class="text"> Transformando tus metas en logros con los mejores productos de gimnasio y el respaldo de expertos en fitness que te guían en cada paso de tu camino hacia una vida más saludable, fuerte y activa. No solo te equipamos, te empoderamos.</p>
+							
 						</div>
 						<!-- End Single Widget -->
 					</div>
 					<div class="col-lg-2 col-md-6 col-12">
 						<!-- Single Widget -->
 						<div class="single-footer links">
-							<h4>Information</h4>
+							<h4>Información</h4>
 							<ul>
-								<li><a href="#">About Us</a></li>
-								<li><a href="#">Faq</a></li>
-								<li><a href="#">Terms & Conditions</a></li>
-								<li><a href="#">Contact Us</a></li>
-								<li><a href="#">Help</a></li>
+								<li><a href="#">Sobre Nosotros</a></li>
+								<li><a href="#">Terminos & Condiciones</a></li>
+								<li><a href="#">Contacto</a></li>
+								<li><a href="#">Ayuda</a></li>
 							</ul>
 						</div>
 						<!-- End Single Widget -->
@@ -563,13 +443,13 @@
 					<div class="col-lg-2 col-md-6 col-12">
 						<!-- Single Widget -->
 						<div class="single-footer links">
-							<h4>Customer Service</h4>
+							<h4>Servicio al cliente</h4>
 							<ul>
-								<li><a href="#">Payment Methods</a></li>
-								<li><a href="#">Money-back</a></li>
-								<li><a href="#">Returns</a></li>
-								<li><a href="#">Shipping</a></li>
-								<li><a href="#">Privacy Policy</a></li>
+								<li><a href="#">Metodos de Pago</a></li>
+								<li><a href="#">Devolución de Dinero</a></li>
+								<li><a href="#">Devoluciones</a></li>
+								<li><a href="#">Envío</a></li>
+								<li><a href="#">Politica de Privacidad</a></li>
 							</ul>
 						</div>
 						<!-- End Single Widget -->
@@ -577,14 +457,14 @@
 					<div class="col-lg-3 col-md-6 col-12">
 						<!-- Single Widget -->
 						<div class="single-footer social">
-							<h4>Get In Tuch</h4>
+							<h4>Encuentranos en</h4>
 							<!-- Single Widget -->
 							<div class="contact">
 								<ul>
-									<li>NO. 342 - London Oxford Street.</li>
-									<li>012 United Kingdom.</li>
-									<li>info@eshop.com</li>
-									<li>+032 3456 7890</li>
+									<li>NO. 342 - Santo Domingo.</li>
+									<li>Ciudad de México.</li>
+									<li>FitXpress@gmail.com</li>
+									<li>+52 553456 7890</li>
 								</ul>
 							</div>
 							<!-- End Single Widget -->
@@ -607,12 +487,12 @@
 					<div class="row">
 						<div class="col-lg-6 col-12">
 							<div class="left">
-								<p>Copyright © 2020 <a href="http://www.wpthemesgrid.com" target="_blank">Wpthemesgrid</a>  -  All Rights Reserved.</p>
+								<p>Copyright © 2024 FitXpress  -  All Rights Reserved.</p>
 							</div>
 						</div>
 						<div class="col-lg-6 col-12">
 							<div class="right">
-								<img src="images/payments.png" alt="#">
+								<img src="{% static 'images/payments.png' %}" alt="#">
 							</div>
 						</div>
 					</div>
